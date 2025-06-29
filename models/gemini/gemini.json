@@ -1,0 +1,8 @@
+[
+  { "id": "gemini-pro", "name": "Gemini Pro", "description": "General-purpose, high-quality Gemini model." },
+  { "id": "gemini-pro-vision", "name": "Gemini Pro Vision", "description": "Gemini with image input support." },
+  { "id": "gemini-1.0-pro", "name": "Gemini 1.0 Pro", "description": "First major Gemini release." },
+  { "id": "gemini-1.5-pro", "name": "Gemini 1.5 Pro", "description": "Larger context, more advanced reasoning." },
+  { "id": "gemini-1.5-flash", "name": "Gemini 1.5 Flash", "description": "Fastest Gemini model for quick responses." },
+  { "id": "gemini-ultra", "name": "Gemini Ultra", "description": "Most powerful Gemini model for complex tasks." }
+]

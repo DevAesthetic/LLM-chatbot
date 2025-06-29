@@ -1,0 +1,9 @@
+[
+  { "id": "gpt-3.5-turbo", "name": "GPT-3.5 Turbo", "description": "Fast, cost-effective, and capable for most tasks." },
+  { "id": "gpt-3.5-turbo-16k", "name": "GPT-3.5 Turbo 16K", "description": "Larger context window for longer conversations." },
+  { "id": "gpt-4", "name": "GPT-4", "description": "Advanced reasoning, more accurate, and creative." },
+  { "id": "gpt-4-32k", "name": "GPT-4 32K", "description": "GPT-4 with a much larger context window." },
+  { "id": "gpt-4-turbo", "name": "GPT-4 Turbo", "description": "Cheaper and faster GPT-4 variant." },
+  { "id": "gpt-4o", "name": "GPT-4o", "description": "Omni model: vision, audio, and text in one." },
+  { "id": "gpt-4-vision-preview", "name": "GPT-4 Vision Preview", "description": "GPT-4 with image input support." }
+]

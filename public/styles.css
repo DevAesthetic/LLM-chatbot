@@ -1,0 +1,57 @@
+/* Extracted from chatbot.html <style> */
+.user-message {
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 18px 18px 0 18px;
+    animation: fade-in 0.3s;
+}
+.ai-message {
+    background-color: #f3f4f6;
+    color: #111827;
+    border-radius: 18px 18px 18px 0;
+    animation: fade-in 0.3s;
+}
+.chat-history::-webkit-scrollbar {
+    width: 6px;
+}
+.chat-history::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.chat-history::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.loading-spinner {
+    animation: spin 1s linear infinite;
+}
+.modal {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.modal-hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+    animation: fade-in 0.3s;
+}
+pre {
+    background: #1a202c;
+    color: #d1fae5;
+    border-radius: 0.5rem;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+    overflow-x: auto;
+}
+code {
+    font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+}
