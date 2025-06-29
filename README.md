@@ -16,7 +16,7 @@ A modern, extensible AI chatbot supporting OpenAI, Gemini, and custom LLMs. User
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/DevAesthetic/LLM-chatbot.git
-   cd chatbot
+   cd LLM-chatbot
    ```
 2. **Install dependencies:**
    ```sh
